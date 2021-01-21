@@ -39,6 +39,7 @@ class Song
 
   def self.alphabetical
     @@all.each { |song| song.name <=> song.name }
+    @@all 
   end
 
 end
